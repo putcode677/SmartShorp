@@ -1,0 +1,167 @@
+      body {
+    margin: 100;
+} 
+.img{ height:80px;
+      width:80px;
+       display:flex;
+      align item:center;
+      gap:15 px;
+}
+
+.cart{ height:60px;
+      width:60px;
+}
+
+.search icon{ height:40px;
+      width:40px;
+     
+}
+
+.name 2{margin:0;
+font-size:14;
+}
+
+
+.row{ display:flex;
+      gap:300px;}
+
+.col{ display:flex;
+    align:center;
+    gap:15px;}
+
+header{ background-color:#FBFCF8;}
+
+.row1{dispay:flex;
+}
+
+.smart-online{display:block;
+        }
+
+.quality {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+h1 shop{
+       color:red;}
+
+nav a{ display:inline-block;
+border:1px solid red;
+padding:10px;
+margin:0;
+background-color:red;
+text-decoration:none;
+align-items:center;
+justify-items:center;
+color:white;
+}
+
+nav{
+    margin:0;
+    padding:0;
+    gap:0;
+    display:flex;
+}
+    
+nav a:first-child img {
+    width: 30px;
+    height: 30px;
+}
+
+.nav{background-color:red;
+}
+
+h1 span{
+              color:red;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    gap: 700px;
+    margin-top:0;
+   background-color:#FFE4E1;
+
+}
+.shop-button {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.shopping {
+    width: 250px;
+    height: 200px;
+}
+
+section{
+background-color:#FFE4E1;
+margin: 0;
+padding: 30px;}
+
+.Products {
+    background-color: white;
+}
+
+.Products h2 {
+    text-align: center;
+}
+.Featured-Products {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.Headphones img{  width:160px;
+                  height:160px;
+}
+
+.more {
+    background-color: #F8F8F8;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.arrangement {
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.arrangement img {
+    width 50px;
+    height:50px;
+    object-fit:contain;
+}
+
+.arrangement h3 {
+    margin: 0;
+}
+
+.arrangement p {
+    margin:5px ;
+}
+
+footer {
+    display:flex;
+    align-items:center;
+    background-color:black;
+    color:white;
+    padding-left:50px;
+    padding-right:50px;
+    padding:20px; 
+}
+
+
+.comm-icons {
+    display:flex;
+    gap:0px;
+    margin-left:auto;
+}
+
+.comm-icons img {
+    width:30px;
+    height:30px;
+}
