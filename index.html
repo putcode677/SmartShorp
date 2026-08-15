@@ -1,203 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <title>SMART SHOP</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>smartshop</title>
-</head>
-<body>
-    <header>
-<div class="row">
-<div class="col"> 
- <img src="images/shop logo.jpeg" alt="Image loading..." class="img">
-<div class="smart-online">
-<h1>Smart<span>Shop</span></h1>
-<p>Your Online Shopping Partner</p>
-</div>
-</div>
+    <link rel="stylesheet" href="smart-shop.css">
+  </head>
+  <body>
+    <div class="page">
 
-<div class="col">
-<form>
-<div class="search icon" >
-<input type="text" placeholder="Search for products...">
-<button type="submit"><img src="images/search button.jpeg" alt="loading..." class="search button" height="20" width="20">
-</button>
-</form>
-</div>
-</div>
+      <header>
+        <div class="header-div">
+          <div class="smart-shop-div">
+            <div class="bag-log-div">
+              🛒
+            </div>
+            <div class="smart-par">
+              <p class="smart">Smart<span>Shop</span></p>
+              <p class="details">Your Online Shopping Partner</p>
+            </div>
+          </div>
 
-<div class="col">
-<img src="images/cart logo.jpeg" alt="wait..." class="cart">
-<p>My Cart <br> Tsh 0</p>
-</div>
+          <div class="search-bar">
+            <input class="search-input" type="text" placeholder="Search for products...">
+            <button class="search-icon"><img src="./images/search.svg" alt="Search"></button>
+          </div>
 
-</div>
-</header>
+          <div class="notification">
+            <div class="cart-icon">
+              🛒
+              <span class="cart-count">0</span>
+            </div>
+            <div class="mycart">
+              <p>My Cart</p>
+              <p>Tsh 0</p>
+            </div>
+          </div>
+        </div>
+      </header>
 
-<div class="nav-sec">
-<div class="nav">
-<nav>
- <a href="#"><img src="images/home icon.jpeg" alt="wait..." class="search button" height="15" width="15"></a>
- <a href="#">Home</a>
- <a href="#">Electronic</a>
- <a href="#">Clothing</a>
- <a href="#">Shoes</a>
- <a href="#">Contact</a>
-</nav>
-</div>
+      <nav class="bar-div">
+        <a  class="nav-item active">&#8962;</a>
+        <a  class="nav-item">Home</a>
+        <a  class="nav-item">Electronics</a>
+        <a  class="nav-item">Clothing</a>
+        <a  class="nav-item">Shoes</a>
+        <a  class="nav-item">Accessories</a>
+        <a  class="nav-item">Contact</a>
+      </nav>
 
-<br>
-<section class="welcome">
-<div>
-<button>&#10094;</button>
-<h1>Welcome to <span> SmartShop</h1>
-<p class="quality">Shop quality products at affordable prices.</p>
-<button>Shop Now</button>
-</div>
+      <div class="welcome-div">
+        <button class="left-button">&#10094;</button>
 
-<div class="shop-button">
-    <div class="shopping bags">
-     <img src="images/shopping.jpeg" class="shopping">
+        <div class="welcome">
+          <p class="welcome-title">Welcome to <span>SmartShop</span></p>
+          <p class="welcome-sub">Shop quality products at affordable prices.</p>
+          <button class="shop-now">Shop Now &#10148;</button>
+        </div>
+
+        <div class="welcome-art">
+          <img src="./images/cart -red back.jpg" alt="Shopping cart with bags">
+        </div>
+
+        <button class="right-button">&#10095;</button>
+
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+
+      <section class="featured-section">
+        <h2 class="featured-title">Featured Products</h2>
+
+        <div class="product-grid-div">
+
+          <div class="product-card">
+            <div class="product-img"><img src="images/smartphone.jpg" alt="Smartphone"></div>
+            <p class="product-name">Smartphone</p>
+            <p class="product-desc">Latest smartphone with amazing features.</p>
+            <p class="product-price">Tsh 450,000</p>
+            <button class="add-cart-btn"> &#128722; Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="images/laptop.webp" alt="Laptop"></div>
+            <p class="product-name">Laptop</p>
+            <p class="product-desc">High performance laptop for work and play.</p>
+            <p class="product-price">Tsh 1,500,000</p>
+            <button class="add-cart-btn">&#128722; Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="images/t-shirt.jpg" alt="T-Shirt"></div>
+            <p class="product-name">T-Shirt</p>
+            <p class="product-desc">Comfortable cotton t-shirt for everyday.</p>
+            <p class="product-price">Tsh 35,000</p>
+            <button class="add-cart-btn">&#128722; Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="images/sneakers.webp" alt="Sneakers"></div>
+            <p class="product-name">Sneakers</p>
+            <p class="product-desc">Stylish and comfortable sneakers.</p>
+            <p class="product-price">Tsh 80,000</p>
+            <button class="add-cart-btn">&#128722; Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="images/wrist_watch.jpg" alt="Wrist Watch"></div>
+            <p class="product-name">Wrist Watch</p>
+            <p class="product-desc">Elegant watch for every occasion.</p>
+            <p class="product-price">Tsh 60,000</p>
+            <button class="add-cart-btn">&#128722; Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img"><img src="images/headphones.webp" alt="Headphones"></div>
+            <p class="product-name">Headphones</p>
+            <p class="product-desc">High quality sound experience.</p>
+            <p class="product-price">Tsh 75,000</p>
+            <button class="add-cart-btn">&#128722; Add to Cart</button>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="delivery-div">
+        <div class="perk">
+          <div class="perk-icon"><img src="images/delivery-icon.png" alt="Free delivery"></div>
+          <div>
+            <p class="perk-title">Free Delivery</p>
+            <p class="perk-sub">On orders over Tsh 200,000</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon perk-icon-emoji">
+            <img class="perk-icon" src="./images/red-secure-icon.jpg" alt="secure payment">
+          </div>
+          <div>
+            <p class="perk-title">Secure Payment</p>
+            <p class="perk-sub">100% secure payment</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon"><img src="images/undo-logo.png" alt="Easy returns"></div>
+          <div>
+            <p class="perk-title">Easy Returns</p>
+            <p class="perk-sub">30 days return policy</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon"><img src="images/headset-logo.jpg" alt="24/7 support"></div>
+          <div>
+            <p class="perk-title">24/7 Support</p>
+            <p class="perk-sub">Dedicated support</p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p class="footer-text">&copy; 2026 SmartShop | Email: info@smartshop.com | Tel: +255 700 000 000</p>
+        <div class="social-icons">
+          <span class="social-icon"><img src="images/facebook-icon.png" alt="Facebook"></span>
+          <span class="social-icon"><img src="images/ig-icon.jpg" alt="Instagram"></span>
+          <span class="social-icon"><img src="images/whats-up-icon.jpg" alt="WhatsApp"></span>
+          <span class="social-icon"><img src="./images/tweeter-icon.jpg"alt="tweeter"></span>
+        </div>
+      </footer>
+
     </div>
-
-    <button>&#10095;</button>
-</div>
-</section>
-
-<div class="list">
-<section class="Products">
-
-    <h2>Featured Products</h2> 
-<div class="Featured-Products">
-<div>
-<img src="images/Smartphone.jpeg" alt="Smartphone">
-<h3>Smartphone</h3>
-<p>Latest smartphone with amazing features.</p>
-<p>Tsh 450,000</p>
-
- <button>Add to Cart</button>
-  </div>
-
-
-       
- <div>
-<img src="images/laptop.jpeg" alt="Laptop">
-<h3>Laptop</h3>
-<p>High performance laptop for work and play.</p>
-<p>Tsh 1,500,000</p>
-
-<button>Add to Cart</button>
-</div>
-
-
-<div>
-<img src="images/T-shirt.jpeg" alt="T-shirt">
-<h3>T-Shirt</h3>
-<p>Comfortable cotton t-shirt for everyday use.</p>
-<p>Tsh 35,000</p>
-
- <button>Add to Cart</button>
- </div>
-
-
- <div>
- <img src="images/Sneakers.jpeg" alt="Sneakers">
- <h3>Sneakers</h3>
- <p>Stylish and comfortable sneakers.</p>
- <p>Tsh 80,000</p>
-
- <button>Add to Cart</button>
- </div>
-
-   
- <div>
- <img src="images/Wrist Watch.jpeg" alt="Wrist Watch">
- <h3>Wrist Watch</h3>
- <p>Elegant watch for every occasion.</p>
- <p>Tsh 60,000</p>
- <button>Add to Cart</button>
- </div>
-
-
-<div class="Headphones">
-<img src="images/Headphones.jpeg" alt="Headphones">
-<h3>Headphones</h3>
-<p>High quality sound experience.</p>
-<p>Tsh 75,000</p>
-
-<button>Add to Cart</button>
-</div>
-
-</div>
-
-    </section>
-
-<section class="more">
-
-<article class="arrangement">
-<img src="images/Free Delivery.jpeg" alt="Free Delivery">
-<div>
-<h3>Free Delivery</h3>
-<p>On orders over Tsh 200,000</p>
-</div>
-</article>
-
-<article class="arrangement">
-<img src="images/Secure Payment.jpeg" alt="Secure Payment">
-<div>
-<h3>Secure Payment</h3>
-<p>100% secure payment</p>
-</div>
-</article>
-
-<article class="arrangement">
-<img src="images/Easy Returns.jpeg" alt="Easy Returns">
-<div>
-<h3>Easy Returns</h3>
-<p>30 days return policy</p>
-</div>
-</article>
-
-<article class="arrangement">
-<img src="images/Support.jpeg" alt="24/7 Support">
-<div>
-<h3>24/7 Support</h3>
-<p>Dedicated support</p>
-</div>
-</article>
-
-</section>
-
-<footer>
-<div class="left">&copy;2026 SmartShop |
-            Email: info@smartshop.com |
-           Tel: +255 700 000 000
-</div>
-
-<div class="comm-icons">
-<a href="https://www.facebook.com/" target="_blank">
-<img src="images/facebook.jpeg" alt="Facebook">
-</a>
-
-<a href="https://www.instagram.com/" target="_blank">
-<img src="images/instagram.jpeg" alt="Instagram">
-</a>
-
-<a href="https://x.com/" target="_blank">
-<img src="images/twitter.jpeg" alt="X">
-</a>
-
-<a href="https://www.whatsapp.com/" target="_blank">
-<img src="images/whatsapp.jpeg" alt="WhatsApp">
-</a>
-
-</div>
-
-</footer>
-</header>
-
-</body>
-</html>
-</body>
+  </body>
 </html>
